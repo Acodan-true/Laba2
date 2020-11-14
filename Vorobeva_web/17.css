@@ -1,0 +1,78 @@
+#top{
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    background: rgb(97,97,97);
+    background: linear-gradient(0deg, rgba(97,97,97,1) 0%, rgba(167,167,167,1) 39%, rgba(247,247,247,1) 100%);
+}
+#c1{
+    background-color: red;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 1000px;
+    margin: auto;
+}
+#c2{
+    background-color: yellow;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 1000px;
+    margin: auto;
+}
+#c3{
+    background-color: green;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 1000px;
+    margin: auto;
+}
+#top h3{
+    display: inline-block;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+label{
+    width: 10%;
+    margin: auto;
+    margin-right: 20%;
+    float: left;
+}
+input, textarea{
+    margin: auto;
+    width 30%;
+    float: left;
+}
+textarea:focus{
+    padding: 2%;
+    width: 10%;
+    height: 10%;
+}
+input:invalid, textarea:invalid{
+    border: red 2px solid;
+    content: "x";
+}
+input:valid, textarea:valid{
+    border: green 2px solid;
+}
+input[type=submit]{
+    border: none;
+    color: white;
+    background: rgb(2,99,0);
+    background: linear-gradient(0deg, rgba(2,99,0,1) 0%, rgba(36,125,2,1) 39%, rgba(71,212,42,1) 100%);
+    float: none;
+    margin: auto;
+}
+
+hr{
+    background-color: lightgray;
+    height: 1px;
+}
+.big_hr{
+    background-color: gray;
+    height: 2px;
+}

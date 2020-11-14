@@ -1,0 +1,57 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    height: 1100px;
+}
+main
+{
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+#menu
+{
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    color: ;
+    height: 5%;
+    width: 100%;
+    border: solid 2px orange;
+}
+.menu_obj
+{
+    flex-direction: column;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+}
+#text
+{
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    border: solid 2px orange;
+}
+#glav
+{
+    background-color: white;
+    border-bottom: solid 4px white;
+}
+#text h3
+{
+    text-align: center;
+    color: #c45608;
+}
+#text p
+{
+    padding: 10px;
+    color: #301302;
+}
+#people:hover, #obor:hover, #kibble:hover, #us:hover
+{
+    background-color: #ff8c00;
+}

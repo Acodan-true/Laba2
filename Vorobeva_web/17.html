@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Задание №16</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="17.css">
+    </head>
+    <body>
+        <main>
+            <div id="top">
+                <div id="c1"></div>
+                <div id="c2"></div>
+                <div id="c3"></div>
+                <h3>HTML Form</h3>
+            </div>
+            <h1>Contact Us</h1>
+            <hr class="big_hr">
+            <form>
+                <div>
+                <!---->
+                    <label>Name:</label>
+                        <input type="text"
+                               placeholder="Your name here"
+                               minlength="7"
+                               required>
+                    <br>
+                    <hr>
+                    <!---->
+                    <label>Email:</label>
+                        <input type="email"
+                           placeholder="mail@mail.com"
+                           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                           required>
+                    <br>
+                    <hr>
+                    <!---->
+                    <label>Website:</label>
+                        <input type="url"
+                               placeholder="https://"
+                               pattern="https://.+"
+                               required>
+                    <br>
+                    <hr>
+                    <!---->
+                    <label>Message:</label>
+                    <textarea placeholder="Your message here"></textarea>
+                    <br>
+                    <br>
+                    <hr>
+                <!---->
+                </div>
+                <input type="submit">
+            </form>
+            <hr class="big_hr">
+        </main>
+    </body>
+</html>

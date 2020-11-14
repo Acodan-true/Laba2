@@ -1,0 +1,10 @@
+button {
+    background-color: gray;
+}
+#dis {
+    font-size: 20px;
+}
+input:checked + span {
+    background: #fc0;
+   }
+  
