@@ -44,20 +44,22 @@ label{
 }
 input, textarea{
     margin: auto;
-    width 30%;
-    float: left;
-}
-textarea:focus{
-    padding: 2%;
     width: 10%;
-    height: 10%;
+    float: left;
+    resize: none;
+}
+input:focus, textarea:focus {
+    background: #fff;
+    border:1px;
+    padding-right:10%;
+    height: auto;
 }
 input:invalid, textarea:invalid{
-    border: red 2px solid;
+    border: red 3px solid;
     content: "x";
 }
 input:valid, textarea:valid{
-    border: green 2px solid;
+    border: green 3px solid;
 }
 input[type=submit]{
     border: none;
@@ -75,4 +77,8 @@ hr{
 .big_hr{
     background-color: gray;
     height: 2px;
+}
+#besit
+{
+    flex-wrap: wrap;
 }
